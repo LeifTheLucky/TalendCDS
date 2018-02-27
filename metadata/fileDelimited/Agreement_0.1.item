@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_9lJqgAdOEeindPbQWhhH2Q" name="Agreement" dataPackage="_9lJqgQdOEeindPbQWhhH2Q" Server="Localhost 127.0.0.1" FilePath="C:/talend/TOS_DI-20170623_1246-V6.4.1/workspace/Metaout_Agreement.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9lJqgQdOEeindPbQWhhH2Q" name="default" dataManager="_9lJqgAdOEeindPbQWhhH2Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9lJqggdOEeindPbQWhhH2Q" id="_zO2lEAdOEeindPbQWhhH2Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqhAdOEeindPbQWhhH2Q" label="Agreement__Type" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqhQdOEeindPbQWhhH2Q" label="Agreement__Period" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqhgdOEeindPbQWhhH2Q" label="Agreement__AccountManager_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqhwdOEeindPbQWhhH2Q" label="Agreement__AgreementAddress_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqiAdOEeindPbQWhhH2Q" label="AgreementAreTermsCondAccepted" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqiQdOEeindPbQWhhH2Q" label="Agreement__ChargePeriod_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqigdOEeindPbQWhhH2Q" label="Agreement__Contract_End_Date" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqiwdOEeindPbQWhhH2Q" label="Agreement__Contract_Nr" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqjAdOEeindPbQWhhH2Q" label="Agreement__ContractPeriod_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqjQdOEeindPbQWhhH2Q" label="Agreement__Contract_Start_Date" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqjgdOEeindPbQWhhH2Q" label="Agreement__Customer_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqjwdOEeindPbQWhhH2Q" label="Agreement__Distibutor_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqkAdOEeindPbQWhhH2Q" label="AgreementFinancialAccountId" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqkQdOEeindPbQWhhH2Q" label="Agreement__Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqkgdOEeindPbQWhhH2Q" label="Agreement__Is_Default" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqkwdOEeindPbQWhhH2Q" label="Agreement__LinkToContract" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqlAdOEeindPbQWhhH2Q" label="Agreement__MarketSegment_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqlQdOEeindPbQWhhH2Q" label="Agreement__Name" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqlgdOEeindPbQWhhH2Q" label="Agreement__NumberOfUnits" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqlwdOEeindPbQWhhH2Q" label="Agreement__NumberOfUnits2" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqmAdOEeindPbQWhhH2Q" label="Agreement__PurchaseOrder_Nr" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqmQdOEeindPbQWhhH2Q" label="Agreement__SalesPerson_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqmgdOEeindPbQWhhH2Q" label="Agreement__ServiceAddress_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqmwdOEeindPbQWhhH2Q" label="Agreement__Status" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqnAdOEeindPbQWhhH2Q" label="Agreement__StockHandler_Id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqnQdOEeindPbQWhhH2Q" label="AgreementTotalMeasurementUnits1" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s_YQIAs1Eei7LNOTJqs0Pw" name="AgreementTotalMeasurementUnits2" label="AgreementTotalMeasurementUnits2" length="7" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqngdOEeindPbQWhhH2Q" label="AgreementUnitOfMeasurementId" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqnwdOEeindPbQWhhH2Q" label="AgreementUnitOfMeasurementId2" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9lJqoAdOEeindPbQWhhH2Q" label="Agreement__Type_Name" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vQAQQAdWEeiuy5wNhC748w" name="MigrationDate" label="MigrationDate" length="-1" talendType="id_Date" pattern="&quot;dd.MM.yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

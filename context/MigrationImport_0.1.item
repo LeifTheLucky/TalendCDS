@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ZiPyEAdQEeindPbQWhhH2Q" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_ZiPyEQdQEeindPbQWhhH2Q" comment="" name="LegalEntity" prompt="LegalEntity?" promptNeeded="false" type="id_String" value="CDNO"/>
+  <contextParameter xmi:id="_ZiPyEgdQEeindPbQWhhH2Q" comment="" name="Period" prompt="Period?" promptNeeded="false" type="id_String" value="201710"/>
+</talendfile:ContextType>
